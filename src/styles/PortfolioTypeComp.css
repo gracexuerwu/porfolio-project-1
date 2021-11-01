@@ -1,0 +1,37 @@
+.second-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 60px 0 60px;
+}
+.second-page .portfolio-link {
+  font-size: 30px;
+  font-family: var(--heading-font-family);
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: black;
+  font-size: 38px;
+
+  background: linear-gradient(to bottom, #ff9800 0%, #ff9800 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+.second-page .portfolio-link:hover {
+  /* transform: translateY(-10px);
+  transition: transform 250ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
+  text-decoration: underline; */
+  background-size: 4px 50px;
+}
+.portfolio-type {
+  font-family: var(--heading-font-family);
+}
+.portfolio-type h2 {
+  line-height: 65px;
+  font-size: 38px;
+}
