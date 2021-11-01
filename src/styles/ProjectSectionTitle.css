@@ -1,0 +1,7 @@
+.project-page-highlight {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgb(205, 214, 70) 50%
+  );
+}
