@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from "./components/NavbarComp";
 import HeroComp from "./components/HeroComp";
 import PortfolioTypeComp from "./components/PortfolioTypeComp";
+import ProjectShowcaseComp from "./components/ProjectShowcaseComp";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavbarComp />
       <HeroComp />
       <PortfolioTypeComp />
+      <ProjectShowcaseComp />
     </div>
   );
 }
