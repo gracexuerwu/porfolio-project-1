@@ -1,4 +1,4 @@
-/* <--font import--> */
+/* font import */
 @font-face {
   font-family: laorbrige;
   src: url(../fonts/laobrige.otf);
@@ -6,22 +6,22 @@
 }
 @font-face {
   font-family: monospaceTypewriter;
-  src: url(./fonts/MonospaceTypewriter.ttf);
+  src: url(../fonts/MonospaceTypewriter.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: smiley;
-  src: url(./fonts/smiley.ttf);
+  src: url(../fonts/smiley.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: sportingGrotesque;
-  src: url(./fonts/SportingGrotesque-Regular.otf);
+  src: url(../fonts/SportingGrotesque-Regular.otf);
   font-weight: normal;
 }
 @font-face {
   font-family: sportingGrotesque;
-  src: url(./fonts/SportingGrotesque-Bold.otf);
+  src: url(../fonts/SportingGrotesque-Bold.otf);
   font-weight: bold;
 }
 /* <--root--> */
@@ -49,4 +49,21 @@
 }
 .smiley-font {
   font-family: smiley;
+}
+/* <--navbar--> */
+.container-fluid {
+  padding: 0 35px 0 35px;
+}
+.active {
+  background: linear-gradient(
+    to bottom,
+    transparent 90%,
+    rgb(205, 214, 70) 30%
+  ) !important;
+}
+.nav-link {
+  padding-bottom: 2px !important;
+}
+.navbar-font {
+  font-family: var(--heading-font-family);
 }

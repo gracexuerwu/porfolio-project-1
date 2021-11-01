@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  padding: 0 60px 0 60px;
+}
+.hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 45px;
+  color: #1a1c20;
+}
+.hero p {
+  font-family: var(--heading-font-family);
+}
