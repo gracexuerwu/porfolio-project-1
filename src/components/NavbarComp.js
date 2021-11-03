@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/NavbarComp.css";
-// import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Link, Route } from 'react-router-dom'
 
 export default function NavbarComp() {
     return (
@@ -29,19 +29,17 @@ export default function NavbarComp() {
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav">
-                            <a
+                            <Link to
                                 className="nav-link active navbar-font mx-2"
                                 aria-current="page"
                                 href="/"
                                 title="Projects"
-                            >Projects</a
-                            >
-                            <a
+                            >Projects</Link>
+                            <Link to
                                 className="nav-link navbar-font mx-2"
-                                href="/about.html"
+                                href="/about"
                                 title="About"
-                            >About</a
-                            >
+                            >About</Link>
                         </div>
                     </div>
                 </div>

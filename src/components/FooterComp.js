@@ -1,6 +1,7 @@
 import React from "react";
 import FooterSocialButtons from "./FooterSocialButtons";
 import "../styles/FooterSocialButtons.css";
+import "../styles/FooterComp.css"
 
 export default function FooterComp() {
     return (

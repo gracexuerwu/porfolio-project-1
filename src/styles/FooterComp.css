@@ -1,0 +1,23 @@
+footer {
+  background-color: rgb(237, 237, 233);
+  padding: 10px 0 25px 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+footer .signature {
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  color: rgb(117, 117, 117);
+  text-align: center;
+}
+footer .open-source-link {
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+  transition: all 150ms ease-in-out;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+footer .open-source-link:hover {
+  color: #527587;
+  text-decoration: underline;
+}
