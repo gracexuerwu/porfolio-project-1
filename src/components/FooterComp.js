@@ -13,6 +13,7 @@ export default function FooterComp() {
                     <a
                         href="https://github.com/gracexuerwu/portfolio-project"
                         target="_blank"
+                        rel="noreferrer"
                         className="open-source-link"
                     >open-sourced</a>
                     on Github

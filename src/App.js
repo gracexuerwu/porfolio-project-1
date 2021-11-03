@@ -17,13 +17,15 @@ import About from "./components/About";
 function App() {
   return (
     <Router>
-      <div className="App">
-        <NavbarComp />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-        </Switch>
-      </div>
+      <body>
+        <div className="App">
+          <NavbarComp />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+          </Switch>
+        </div>
+      </body>
     </Router>
   );
 }
