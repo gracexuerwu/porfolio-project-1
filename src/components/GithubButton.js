@@ -4,9 +4,10 @@ import "../styles/GithubButton.css"
 export default function GithubButton(props) {
     return (
         <a
-            href={props.link}
+            href={props.gitHublink}
             class="btn-fill"
             target="_blank"
+            rel="noreferrer"
         ><div>Github</div>
         </a>
     )

@@ -6,7 +6,7 @@ export default function ProjectSectionTitle(props) {
         <h2 id={props.idClass}>
             <span className="project-page-highlight">
                 {props.heading}
-                <img src={props.logo} width="40px" class="illustration-img"
+                <img src={props.logo} width="40px" class="illustration-img" alt=""
                 /></span>
         </h2>
     )

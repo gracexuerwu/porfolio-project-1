@@ -4,6 +4,7 @@ import NavbarComp from "./components/NavbarComp";
 import HeroComp from "./components/HeroComp";
 import PortfolioTypeComp from "./components/PortfolioTypeComp";
 import ProjectShowcaseComp from "./components/ProjectShowcaseComp";
+import FooterComp from "./components/FooterComp";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroComp />
       <PortfolioTypeComp />
       <ProjectShowcaseComp />
+      <FooterComp />
     </div>
   );
 }
