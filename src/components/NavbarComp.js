@@ -29,17 +29,8 @@ export default function NavbarComp() {
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav">
-                            <Link to
-                                className="nav-link active navbar-font mx-2"
-                                aria-current="page"
-                                href="/"
-                                title="Projects"
-                            >Projects</Link>
-                            <Link to
-                                className="nav-link navbar-font mx-2"
-                                href="/about"
-                                title="About"
-                            >About</Link>
+                            <Link to="/" className="nav-link active navbar-font mx-2" aria-current="page" title="Projects">Projects</Link>
+                            <Link to="/about" className="nav-link navbar-font mx-2" title="About">About</Link>
                         </div>
                     </div>
                 </div>
