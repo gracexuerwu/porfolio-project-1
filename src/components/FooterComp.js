@@ -12,7 +12,7 @@ export default function FooterComp() {
                 <div className="signature text-center">
                     ©2021 Grace Wu This website was built by Grace Wu with React <img src={ReactAtomLogo} width="15px" class="react-logo" alt="" /> and
                     <a
-                        href="https://github.com/gracexuerwu/portfolio-project"
+                        href="https://github.com/gracexuerwu/porfolio-project-1"
                         target="_blank"
                         rel="noreferrer"
                         className="open-source-link"

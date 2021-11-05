@@ -67,3 +67,6 @@
 .navbar-font {
   font-family: var(--heading-font-family);
 }
+.navbar {
+  background-color: #e7e6e3;
+}

@@ -7,7 +7,7 @@ export default function NavbarComp() {
         <div className="container">
             <nav
                 className="navbar fixed-top navbar-expand-lg navbar-light"
-                style={{ color: "#e7e6e3" }}
+                style={{ color: "#0000" }}
             >
                 <div className="container-fluid">
                     <a className="navbar-brand navbar-font" href="/" title="Homepage"
