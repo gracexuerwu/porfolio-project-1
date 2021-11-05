@@ -14,19 +14,16 @@ export default function PortfolioTypeComp() {
                 >01 / Front-end Dev. <img src={AtomLogo} width="45px" alt=""
                     /></a>
                 <a href="#userResearch-section" className="portfolio-link">
-                    02 / User Research
-                    <img
+                    02 / User Research <img
                         src={QuestionPersonLogo}
                         width="45px" alt=""
                     />
                 </a>
                 <a href="#socialDesign-section" className="portfolio-link">
-                    03 / Social Design
-                    <img src={PeopleLogo} width="45px" alt="" />
+                    03 / Social Design <img src={PeopleLogo} width="45px" alt="" />
                 </a>
                 <a href="#sus-section" className="portfolio-link">
-                    04 / Sustainability
-                    <img src={TreesLogo} width="45px" alt="" />
+                    04 / Sustainability <img src={TreesLogo} width="45px" alt="" />
                 </a>
             </div>
         </div>
