@@ -20,7 +20,7 @@ export default function About() {
                         <div className="about-section-content">
                             <h1><div>Hey there! I'm Grace <span class="smiley-font" alt="">b</span></div>
                                 I’m a self-taught <span className="monospace-font"> front-end developer</span>, writing
-                                code and moving pixels in the <span class="monospace-font">www</span><img src={ComputerLogo} width="27px" class="about-img" alt="" /> . I’m currently pursuing a BA in <span className="monospace-font">Design Management</span>, seeking to create human-centred design for and with people <img src={GroupLogo} width="27px" class="about-img" alt="" /> . When
+                                code and moving pixels in the <span class="monospace-font">www</span> <img src={ComputerLogo} width="27px" class="about-img" alt="" /> . I’m currently pursuing a BA in <span className="monospace-font">Design Management</span>, seeking to create human-centred design for and with people <img src={GroupLogo} width="27px" class="about-img" alt="" /> . When
                                 the internet is down you can find me frolicking in the woods or alps <img src={MountainsLogo} width="27px" class="about-img" alt="" /> , cooking
                                 or reading a book <img src={BookLogo} width="27px" class="about-img" alt="" />.
                             </h1>
