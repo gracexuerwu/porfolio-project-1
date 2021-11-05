@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/NavbarComp.css";
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export default function NavbarComp() {
     return (
@@ -29,8 +29,8 @@ export default function NavbarComp() {
                         id="navbarNavAltMarkup"
                     >
                         <div className="navbar-nav">
-                            <Link to="/" className="nav-link active navbar-font mx-2" aria-current="page" title="Projects">Projects</Link>
-                            <Link to="/about" className="nav-link navbar-font mx-2" title="About">About</Link>
+                            <NavLink exact activeClassName="active" to="/" className="nav-link navbar-font mx-2" aria-current="page" title="Projects">Projects</NavLink>
+                            <NavLink activeClassName="active" to="/about" className="nav-link navbar-font mx-2" title="About">About</NavLink>
                         </div>
                     </div>
                 </div>
