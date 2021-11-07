@@ -4,6 +4,9 @@ import ProjectSectionTitle from "./ProjectSectionTitle";
 import ProjectCarouselComp from "./ProjectCarouselComp";
 import ProjectDescriptionComp from "./ProjectDescriptionComp";
 import ThumbnailComp from "./ThumbnailComp";
+import GithubButton from "./GithubButton";
+import ViewLiveSiteButton from "./ViewLiveSiteButton";
+import ViewProjectButton from "./ViewProjectButton";
 
 
 //images import
@@ -17,11 +20,11 @@ import Schindler3Thumbnail from "../images/Schindler3_Thumbnail.png";
 import PeopleLogo from "../images/people-hand-drawn-persons-group.png";
 import SexualHealth1Thumbnail from "../images/Sexualhealth1_Thumbnail.png";
 import SexualHealth2Thumbnail from "../images/Sexualhealth2_Thumbnail.png";
-import ViewLiveSiteButton from "./ViewLiveSiteButton";
 import TreesLogo from "../images/trees-outline.png";
 import Carandache1Thumbnail from "../images/Carandache1_Thumbnail.png";
 import Carandache2Thumbnail from "../images/Caradache2_Thumbnail.png";
-import GithubButton from "./GithubButton";
+import Medicalpackaging1Thumbnail from "../images/Medical packaging1_Thumbnail.png";
+import Medicalpackaging2Thumbnail from "../images/Medical packaging2_Thumbnail.png";
 
 export default function ProjectShowcaseComp() {
     return (
@@ -76,7 +79,7 @@ export default function ProjectShowcaseComp() {
                         women? and what can be done to change this reality? The problem is
                         more than meets the eye." />
                     <div className="d-flex justify-content-start">
-                        <ViewLiveSiteButton liveSiteLink="" />
+                        <ViewProjectButton projectLink="https://drive.google.com/file/d/1PXK_a3s2DDxc3ScM1EPirW37xXrJpzoY/view?usp=sharing" />
                     </div>
                 </div>
                 <div className="col-sm-6">
@@ -93,7 +96,7 @@ export default function ProjectShowcaseComp() {
             lack of accessibility and availabe services that offer a discreet
             sexual health services and information to girls and young women." />
                     <div className="d-flex justify-content-start">
-                        <ViewLiveSiteButton />
+                        <ViewProjectButton projectLink="https://drive.google.com/file/d/1J0Y47giqvQgeQTXFxWwb1zvRuC2G9a_q/view?usp=sharing" />
                     </div>
                 </div>
             </div>
@@ -106,11 +109,24 @@ export default function ProjectShowcaseComp() {
             sustainable concept proposition with the core in mind, the
             implementation of a Cradle to Cradle life cycle." />
                     <div className="d-flex justify-content-start">
-                        <ViewLiveSiteButton />
+                        <ViewProjectButton projectLink="https://drive.google.com/file/d/1dGZY0puOUWHbls45M3IFvw4tCvRioVys/view?usp=sharing" />
                     </div>
                 </div>
                 <div className="col-sm-6">
                     <ProjectCarouselComp imageOne={Carandache1Thumbnail} imageTwo={Carandache2Thumbnail} alt="Circular redesign of Caran D'ache pencils Project" />
+                </div>
+            </div>
+            <div class="row project-page-row">
+                <div class="col-sm-6">
+                    <ProjectCarouselComp imageOne={Medicalpackaging1Thumbnail} imageTwo={Medicalpackaging2Thumbnail} alt="Medical packaging evaluation Project" />
+                </div>
+                <div class="col-sm-6">
+                    <ProjectDescriptionComp projType="Research + Analysis" description="The scope of this project, is to research and identify areas of
+            opportunities that would enable medical packaging, namely the
+            blister product to achieve circularity in it's product lifecycle." />
+                    <div class="d-flex justify-content-start">
+                        <ViewProjectButton projectLink="https://drive.google.com/file/d/1YttEc0w1UM0DmRWkwN6M52hTAByGWRCN/view?usp=sharing" />
+                    </div>
                 </div>
             </div>
         </div>
