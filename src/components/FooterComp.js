@@ -10,7 +10,7 @@ export default function FooterComp() {
             <div className="container icon-container">
                 <FooterSocialButtons />
                 <div className="signature text-center">
-                    ©2021 Grace Wu This website was built by Grace Wu with React <img src={ReactAtomLogo} width="15px" class="react-logo" alt="" /> and
+                    ©2021 Grace Wu This website was built by Grace Wu with React <img src={ReactAtomLogo} width="15px" class="react-logo opacity-50" alt="" /> and
                     <a
                         href="https://github.com/gracexuerwu/porfolio-project-1"
                         target="_blank"
