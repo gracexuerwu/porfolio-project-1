@@ -5,3 +5,8 @@
     rgb(205, 214, 70) 50%
   );
 }
+@media (max-width: 600px) {
+  .second-page {
+    display: none;
+  }
+}
