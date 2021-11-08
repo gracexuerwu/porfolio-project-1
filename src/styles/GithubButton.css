@@ -17,12 +17,13 @@
   content: "";
   background-color: #f233d8;
   width: 100%;
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   height: 100%;
   top: 7px;
   left: 7px;
   transition: 0.2s;
+  opacity: 0.8;
 }
 .btn-fill:hover::after {
   top: 0px;
@@ -30,4 +31,9 @@
 }
 .btn-fill:hover div {
   color: black;
+}
+
+.btn-fill div {
+  z-index: 1;
+  position: relative;
 }

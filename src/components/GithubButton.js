@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/GithubButton.css"
+import "../styles/GithubButton.css";
 
 export default function GithubButton(props) {
     return (
