@@ -21,14 +21,18 @@ footer .open-source-link:hover {
   color: #527587;
   text-decoration: underline;
 }
-.react-logo {
+/* .react-logo {
   opacity: 70%;
   margin-bottom: 2px;
-}
+} */
 
 @media (max-width: 600px) {
   footer .signature {
     text-align: center;
     margin: 0 10px 10px 0;
   }
+}
+.react-logo {
+  opacity: 100%;
+  margin-bottom: 2px;
 }
