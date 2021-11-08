@@ -45,7 +45,7 @@ export default function ProjectShowcaseComp() {
             <div className="row project-page-row flex-column-reverse flex-sm-row">
                 <div className="col-sm-6">
                     <ProjectDescriptionComp projType="Design + Code" description="Iterated version of the previous weather app but in React.js. It
-            allows you to search for the weather at any location. Includes a
+            allows users to search for the weather at any location. Includes a
             Celcius and Fahrenheit temperature slider. Created with
             OpenWeatherMap API integration for live weather information." />
                     <div className="d-flex justify-content-start">
@@ -62,9 +62,10 @@ export default function ProjectShowcaseComp() {
                     <ThumbnailComp image={DictionaryAppThumbnail} alt="React.js Dictionary App" />
                 </div>
                 <div className="col-sm-6">
-                    <ProjectDescriptionComp projType="Design + Code" description="React App that allows you to search for any word definition and
+                    <ProjectDescriptionComp projType="Design + Code" description="React App that allows users to search for any word definition and
             pronunciation. Includes pictures that are associated with the
             searched word. Created with Dictionary API and Pexels API." />
+                    <p>Optimal viewing on large screens <span className="smiley-font">j</span></p>
                     <div className="d-flex justify-content-start">
                         <ViewLiveSiteButton liveSiteLink="https://loving-mccarthy-677ab0.netlify.app/" />
                         <GithubButton githubLink="https://github.com/gracexuerwu/dictionary-project-react" />
