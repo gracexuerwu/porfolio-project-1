@@ -96,10 +96,10 @@
 }
 @media (min-width: 1280px) {
   .navbar-brand {
-    font-size: 25px;
+    font-size: 22px;
   }
   .nav-link {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 @media (min-width: 1920px) {
@@ -107,6 +107,6 @@
     font-size: 25px;
   }
   .nav-link {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
