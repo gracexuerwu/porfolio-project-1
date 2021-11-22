@@ -65,3 +65,22 @@
     padding-bottom: 45px;
   }
 }
+@media (min-width: 1280px) {
+  .project-page p {
+    font-size: 19px;
+  }
+  .project-page h4 {
+    margin-top: 15px;
+    font-size: 19px;
+  }
+}
+@media (min-width: 1920px) {
+  .project-page p {
+    font-size: 21px;
+    line-height: 35px;
+  }
+  .project-page h4 {
+    margin-top: 15px;
+    font-size: 22px;
+  }
+}

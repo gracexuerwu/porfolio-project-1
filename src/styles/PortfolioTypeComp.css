@@ -35,3 +35,11 @@
   line-height: 65px;
   font-size: 38px;
 }
+@media (min-width: 1280px) {
+  .second-page .portfolio-link {
+    font-size: 50px;
+  }
+  .second-page .portfolio-link:hover {
+    background-size: 4px 80px;
+  }
+}

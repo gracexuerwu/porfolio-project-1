@@ -28,3 +28,14 @@
     font-size: 15px;
   }
 }
+@media (min-width: 1280px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero img {
+    width: 60px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+}

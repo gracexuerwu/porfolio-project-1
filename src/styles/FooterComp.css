@@ -36,3 +36,15 @@ footer .open-source-link:hover {
   opacity: 100%;
   margin-bottom: 2px;
 }
+@media (min-width: 1280px) {
+  footer .signature {
+    margin: 0 10px 10px 0;
+    font-size: 17px;
+  }
+}
+@media (min-width: 1920px) {
+  footer .signature {
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+  }
+}
